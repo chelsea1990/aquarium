@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="ms"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kolam Ikan Aquariq</title>
+<link rel="icon" type="image/png" href="./Kolam Ikan Aquariq_files/aquariqlogo.JPG">
+
+<style>
+/* ===== GLOBAL ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #eef6ff;
+  color: #333;
+}
+
+
+
+/* ===== PREMIUM FONT ===== */
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700;900&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700;900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ===== HERO HEADER SUPER PREMIUM ===== */
+header {
+  background: 
+    linear-gradient(to bottom, rgba(0,70,140,0.35), rgba(0,20,60,0.65)),
+    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') 
+    no-repeat center center/cover;
+  
+  height: 85vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+header .content {
+  max-width: 900px;
+  color: #ffffff;
+  animation: fadeIn 1.4s ease;
+}
+
+header h1 {
+ font-family: 'Montserrat', sans-serif; /* PENTING: Tukar font utama ke Montserrat */
+ font-size: 4em;
+ font-weight: 800; /* Gunakan Extra Bold */
+ letter-spacing: 2px;
+ margin-bottom: 15px;
+ text-shadow: 0 8px 25px rgba(0,0,0,0.9);
+ color: white; /* Pastikan teks utama putih */
+}
+
+header p {
+  font-size: 1.35em;
+  font-weight: 400;
+  opacity: 0.95;
+  text-shadow: 0 3px 10px rgba(0,0,0,0.8);
+}
+
+/* ===== COUNTDOWN CLEARER ===== */
+#countdown {
+  margin-top: 18px;
+  font-size: 1.45em;
+  font-weight: 600;
+  color: #ffed7b;
+  text-shadow: 0 3px 12px rgba(0,0,0,0.7);
+}
+
+/* ===== ANIMATION ===== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(25px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+
+
+
+
+
+
+/* ===== HERO HEADER PREMIUM ===== */
+header {
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  top:0; left:0; right:0; bottom:0;
+  background: rgba(0,0,0,0.55);
+}
+
+header .content {
+  position: relative;
+  color: white;
+  max-width: 800px;
+  padding: 20px;
+  animation: fadeIn 1.5s ease;
+}
+
+header h1 {
+  font-size: 3.2em;
+  margin-bottom: 10px;
+  text-shadow: 3px 3px 10px rgba(0,0,0,0.7);
+}
+
+header p {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+/* ===== COUNTDOWN TIMER ===== */
+#countdown {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* ===== GOLD BUTTON PREMIUM ===== */
+.btn {
+  background: linear-gradient(135deg, #ffd200, #ffb700);
+  color: #333;
+  padding: 15px 35px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 40px;
+  display: inline-block;
+  font-size: 1.1em;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+.btn:hover {
+  background: linear-gradient(135deg, #ffe257, #ffc939);
+  transform: translateY(-3px);
+}
+
+/* ===== SECTION ===== */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* ===== PREMIUM CARDS ===== */
+.info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  width: 280px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  animation: fadeUp 1.2s ease;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+.card h3 {
+  font-size: 1.4em;
+  color: #0059c9;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #003e7a;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 40px;
+}
+
+footer .contact-box {
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+
+footer a {
+  color: #ffd700;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* ===== FLOATING WHATSAPP BUTTON ===== */
+.whatsapp-float {
+  position: fixed;
+  width: 65px;
+  height: 65px;
+  bottom: 25px;
+  right: 25px;
+  background-color: #25d366;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.whatsapp-float img {
+  width: 38px;
+  margin-top: 13px;
+}
+
+/* ===== ANIMATION ===== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.peta-lokasi {
+    width: 100%;
+    max-width: 400px; /* Lebar maksimum map */
+    margin: 0 auto;   /* Centerkan map */
+    padding: 20px;
+}
+
+iframe {
+    border-radius: 10px; /* Bagi bucu map nampak curve sikit */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Tambah bayang supaya timbul */
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- ===== HERO HEADER ===== -->
+<header>
+  <div class="content">
+    <h1>KOLAM AQUARIQ KELI</h1>
+    <p>Datang sertai keseronokan memancing &amp; rebut hadiah menarik!</p>
+
+    <div id="countdown">2H 8J 12M 52S sebelum bermula!</div>
+  </div>
+</header>
+
+
+<!-- ===== INFO SECTION ===== -->
+<section>
+  <h2>Maklumat Pertandingan</h2>
+
+  <div class="info">
+    <div class="card">
+      <h3>📅 Tarikh</h3>
+      <p>9 Januari 2026</p>
+      <p>9:30 PM - 1:00 AM</p>
+    </div>
+
+    <div class="card">
+      <h3>📍 Lokasi</h3>
+      <p>Kolam Pancing Aquariq Changkat Asa, Hulu Bernam, Tg Malim</p>
+      <p>GPS: 3.673342, 101.502173</p>
+    </div>
+
+    <div class="card">
+      <h3>🏆 Hadiah</h3>
+      <p>Terdapat pelbagai ketegori dan keseluruhan hingga 220 ranking pemenang.</p>
+    </div>
+  </div>
+</section>
+
+<div class="peta-lokasi">
+    <h3>Lokasi Kami</h3>
+    <iframe src="./Kolam Ikan Aquariq_files/embed.html" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<!-- ===== PENDAFTARAN ===== -->
+<section id="daftar">
+   <h2>Pendaftaran Penyertaan</h2>
+   <p>Pendaftaran anda akan dilayan dari pukul 11:00 Pagi hingga 6:00 Petang sahaja. Terima Kasih.</p>
+   <p>Sila klik untuk daftar pertandingan:</p>
+   <a href="http://aquariq.com.my/registration.html" target="_blank" class="btn">Daftar Sekarang</a>
+
+<!--<h2>Pendaftaran Penyertaan</h2>-->
+<!-- <p>Pendaftaran telah **DITUTUP** buat masa ini. Sila hubungi Admin untuk pertanyaan.</p>-->
+<!-- <p>Pendaftaran akan dibuka pada 11:00 Pagi hingga 6:00 Petang. Terima Kasih.</p>-->
+<!-- <button type="button" class="btn" disabled>Daftar Sekarang</button>-->
+
+  <h2 style="margin-top:40px;">Layout Kolam</h2>
+  <p>Klik butang untuk lihat layout:</p>
+  <a href="https://aquariq.com.my/layoutkolam.pdf" target="_blank" class="btn">Layout Kolam</a>
+     
+    <h2 style="margin-top:40px;">Terma dan Syarat</h2>
+  <p>Klik butang untuk lihat Terma dan Syarat Pertandingan:</p>
+  <a href="https://aquariq.com.my/tnc.pdf" target="_blank" class="btn">Terma dan Syarat</a>
+</section>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/60194356877" class="whatsapp-float" target="_blank">
+  <img src="./Kolam Ikan Aquariq_files/WhatsApp_icon.png">
+</a>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="contact-box">
+    <p>📞 Hubungi Admin:</p>
+    <p>
+      <a href="tel:0194356877">Pejol: 019-4356877 (WhatsApp Sahaja)</a><br>
+      <a href="https://wa.me/60194356877" target="_blank"></a>
+      
+      <a href="tel:01115744349">Abg Wan: 019-2546877 (Call &amp; WhatsApp)</a><br>
+      <a href="https://wa.me/60192546877" target="_blank"></a>
+    </p>
+  </div>
+
+  <img src="./Kolam Ikan Aquariq_files/aquariqlogo.JPG" alt="Logo" style="height:70px;">
+  <p>© 2025 Aquariq Farm. Semua Hakcipta Terpelihara.</p>
+
+
+</footer>
+
+<!-- ===== COUNTDOWN SCRIPT ===== -->
+<script>
+  var eventDate = new Date("Jan 9, 2026 22:30:00").getTime();
+
+  setInterval(function() {
+    var now = new Date().getTime();
+    var diff = eventDate - now;
+
+    var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    var secs = Math.floor((diff % (1000 * 60)) / 1000);
+
+    document.getElementById("countdown").innerHTML =
+      days + "H " + hours + "J " + mins + "M " + secs + "S sebelum bermula!";
+  }, 1000);
+</script>
+
+
+
+</body></html>
